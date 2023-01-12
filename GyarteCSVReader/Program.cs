@@ -16,7 +16,7 @@ void Start()
         int total = 0;
         int usedRows = 0;
         int highest = 0;
-        int lowest = 0;
+        int lowest = Int32.MaxValue;
 
         foreach (string values in rows)
         {
@@ -45,6 +45,7 @@ void Start()
             AverageFrames = averageFrames,
             Lowest = lowest,
             Highest = highest,
+            AverageTimeMS = averageFrames * 33,
             FileName = fileName
         });
     }
