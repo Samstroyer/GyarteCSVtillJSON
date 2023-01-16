@@ -10,6 +10,9 @@ void Start()
     foreach (string fileName in Directory.GetFiles("./ReaderMap"))
     {
         List<string> rows = File.ReadAllLines(fileName).ToList();
+
+        List<int> medianCalculator = new();
+
         rows.RemoveAt(0);
 
         string lastTriggerFrame = "0";
@@ -28,11 +31,13 @@ void Start()
                 int frame = int.Parse(frameAndClosestTriggerFrame[1]);
                 int triggerFrame = int.Parse(frameAndClosestTriggerFrame[2]);
 
+
                 lastTriggerFrame = triggerFrame.ToString();
                 total += frame - triggerFrame;
                 usedRows++;
 
                 int temp = frame - triggerFrame;
+                medianCalculator.Add(temp);
                 if (temp > highest) highest = temp;
                 if (temp < lowest) lowest = temp;
             }
@@ -46,7 +51,8 @@ void Start()
             Lowest = lowest,
             Highest = highest,
             AverageTimeMS = averageFrames * 33,
-            FileName = fileName
+            FileName = fileName,
+            Median = CalculateMedian(medianCalculator)
         });
     }
 
@@ -58,6 +64,28 @@ void Start()
     string json = JsonSerializer.Serialize<List<Result>>(results, options);
 
     File.AppendAllText("./Json.json", json);
+}
+
+float CalculateMedian(List<int> medianCalculator)
+{
+    float ret = 0;
+    int[] array = medianCalculator.ToArray();
+
+    if (array.Length % 2 == 0)
+    {
+        int end = array.Length / 2;
+        int temp1 = end - 1;
+        int temp2 = end;
+
+        return (array[temp1] + array[temp2]) / 2;
+    }
+    else
+    {
+        double start = array.Length / 2;
+        start = Math.Floor(start);
+
+        return array[(int)start];
+    }
 }
 
 Console.ReadLine();

@@ -4,69 +4,79 @@
     "AverageFrames": 10,
     "AverageTimeMS": 330,
     "Lowest": 8,
-    "Highest": 21
+    "Highest": 21,
+    "Median": 11
   },
   {
     "FileName": "./ReaderMap\\Audio Test (10).csv",
     "AverageFrames": 29,
     "AverageTimeMS": 957,
     "Lowest": 7,
-    "Highest": 55
+    "Highest": 55,
+    "Median": 25
   },
   {
     "FileName": "./ReaderMap\\Audio Test (2).csv",
     "AverageFrames": 42,
     "AverageTimeMS": 1386,
     "Lowest": 3,
-    "Highest": 60
+    "Highest": 60,
+    "Median": 35
   },
   {
     "FileName": "./ReaderMap\\Audio Test (3).csv",
     "AverageFrames": 26,
     "AverageTimeMS": 858,
     "Lowest": 16,
-    "Highest": 51
+    "Highest": 51,
+    "Median": 21
   },
   {
     "FileName": "./ReaderMap\\Audio Test (4).csv",
     "AverageFrames": 20,
     "AverageTimeMS": 660,
     "Lowest": 13,
-    "Highest": 28
+    "Highest": 28,
+    "Median": 19
   },
   {
     "FileName": "./ReaderMap\\Audio Test (5).csv",
     "AverageFrames": 16,
     "AverageTimeMS": 528,
     "Lowest": 8,
-    "Highest": 42
+    "Highest": 42,
+    "Median": 11
   },
   {
     "FileName": "./ReaderMap\\Audio Test (6).csv",
     "AverageFrames": 15,
     "AverageTimeMS": 495,
     "Lowest": 8,
-    "Highest": 26
+    "Highest": 26,
+    "Median": 8
   },
   {
     "FileName": "./ReaderMap\\Audio Test (7).csv",
     "AverageFrames": 22,
     "AverageTimeMS": 726,
     "Lowest": 12,
-    "Highest": 30
+    "Highest": 30,
+    "Median": 19
   },
   {
     "FileName": "./ReaderMap\\Audio Test (8).csv",
     "AverageFrames": 20,
     "AverageTimeMS": 660,
     "Lowest": 12,
-    "Highest": 30
+    "Highest": 30,
+    "Median": 12
   },
   {
     "FileName": "./ReaderMap\\Audio Test (9).csv",
     "AverageFrames": 31,
     "AverageTimeMS": 1023,
     "Lowest": 7,
-    "Highest": 61
+    "Highest": 61,
+    "Median": 26
   }
 ]

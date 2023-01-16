@@ -4,69 +4,79 @@
     "AverageFrames": 12,
     "AverageTimeMS": 396,
     "Lowest": 9,
-    "Highest": 23
+    "Highest": 23,
+    "Median": 10
   },
   {
     "FileName": "./ReaderMap\\Visual Test (10).csv",
     "AverageFrames": 12,
     "AverageTimeMS": 396,
     "Lowest": 10,
-    "Highest": 15
+    "Highest": 15,
+    "Median": 12
   },
   {
     "FileName": "./ReaderMap\\Visual Test (2).csv",
     "AverageFrames": 13,
     "AverageTimeMS": 429,
     "Lowest": 10,
-    "Highest": 24
+    "Highest": 24,
+    "Median": 12
   },
   {
     "FileName": "./ReaderMap\\Visual Test (3).csv",
     "AverageFrames": 12,
     "AverageTimeMS": 396,
     "Lowest": 10,
-    "Highest": 20
+    "Highest": 20,
+    "Median": 14
   },
   {
     "FileName": "./ReaderMap\\Visual Test (4).csv",
     "AverageFrames": 12,
     "AverageTimeMS": 396,
     "Lowest": 10,
-    "Highest": 17
+    "Highest": 17,
+    "Median": 13
   },
   {
     "FileName": "./ReaderMap\\Visual Test (5).csv",
     "AverageFrames": 11,
     "AverageTimeMS": 363,
     "Lowest": 10,
-    "Highest": 13
+    "Highest": 13,
+    "Median": 12
   },
   {
     "FileName": "./ReaderMap\\Visual Test (6).csv",
     "AverageFrames": 13,
     "AverageTimeMS": 429,
     "Lowest": 10,
-    "Highest": 21
+    "Highest": 21,
+    "Median": 12
   },
   {
     "FileName": "./ReaderMap\\Visual Test (7).csv",
     "AverageFrames": 18,
     "AverageTimeMS": 594,
     "Lowest": 14,
-    "Highest": 32
+    "Highest": 32,
+    "Median": 17
   },
   {
     "FileName": "./ReaderMap\\Visual Test (8).csv",
     "AverageFrames": 13,
     "AverageTimeMS": 429,
     "Lowest": 10,
-    "Highest": 25
+    "Highest": 25,
+    "Median": 12
   },
   {
     "FileName": "./ReaderMap\\Visual Test (9).csv",
     "AverageFrames": 13,
     "AverageTimeMS": 429,
     "Lowest": 11,
-    "Highest": 17
+    "Highest": 17,
+    "Median": 11
   }
 ]
